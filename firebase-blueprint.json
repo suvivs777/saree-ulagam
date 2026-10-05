@@ -1,0 +1,250 @@
+{
+  "entities": {
+    "Saree": {
+      "title": "Saree",
+      "description": "Inventory product entity for sarees in the MLM store",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the saree",
+          "maxLength": 150
+        },
+        "price": {
+          "type": "number",
+          "description": "Price in INR"
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "Image URL or base64 data for the saree",
+          "maxLength": 2000000
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description and fabric details of the saree",
+          "maxLength": 2000
+        },
+        "stock": {
+          "type": "number",
+          "description": "Available inventory stock quantity"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Creation timestamp in ISO format",
+          "maxLength": 50
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "Update timestamp in ISO format",
+          "maxLength": 50
+        }
+      },
+      "required": [
+        "name",
+        "price",
+        "imageUrl",
+        "description",
+        "stock",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "User": {
+      "title": "User",
+      "description": "Member profile entity indexed primarily by 10-digit mobile number",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique user ID derived from mobile number (e.g. usr_9876543210)",
+          "maxLength": 64
+        },
+        "mobile": {
+          "type": "string",
+          "description": "Mandatory unique 10-digit mobile number used as primary auth identifier",
+          "maxLength": 15
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Full legal name of the member",
+          "maxLength": 100
+        },
+        "deliveryAddress": {
+          "type": "string",
+          "description": "Shipping address for delivery of 4-saree package",
+          "maxLength": 500
+        },
+        "referralId": {
+          "type": "string",
+          "description": "Unique 3x8 matrix referral identifier (e.g. ADMIN-001)",
+          "maxLength": 32
+        },
+        "sponsorReferralId": {
+          "type": "string",
+          "description": "Referral ID of the direct matrix sponsor",
+          "maxLength": 32
+        },
+        "referredBy": {
+          "type": "string",
+          "description": "Referral code of the direct referrer (e.g. ADMIN-001)",
+          "maxLength": 32
+        },
+        "level": {
+          "type": "number",
+          "description": "Downline level relative to direct sponsor (1 for direct members)"
+        },
+        "badge": {
+          "type": "string",
+          "description": "Special recognition badge (e.g. 1st Member)",
+          "maxLength": 50
+        },
+        "tag": {
+          "type": "string",
+          "description": "Member classification tag (e.g. Direct Member of Admin)",
+          "maxLength": 100
+        },
+        "role": {
+          "type": "string",
+          "description": "User role: member or admin",
+          "maxLength": 20
+        },
+        "status": {
+          "type": "string",
+          "description": "Account status: pending, active, or blocked",
+          "maxLength": 20
+        },
+        "razorpayPaymentId": {
+          "type": "string",
+          "description": "Razorpay Payment ID submitted for ₹2,000 joining verification",
+          "maxLength": 100
+        },
+        "joinAmount": {
+          "type": "number",
+          "description": "Joining amount paid in INR (2000)"
+        },
+        "walletBalance": {
+          "type": "number",
+          "description": "Current wallet commission balance"
+        },
+        "totalEarnings": {
+          "type": "number",
+          "description": "Cumulative downline earnings"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Registration ISO timestamp",
+          "maxLength": 50
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "Last update ISO timestamp",
+          "maxLength": 50
+        }
+      },
+      "required": [
+        "id",
+        "mobile",
+        "fullName",
+        "deliveryAddress",
+        "referralId",
+        "role",
+        "status",
+        "createdAt"
+      ]
+    },
+    "Payout": {
+      "title": "Payout",
+      "description": "Payout record in MLM system",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "userId": { "type": "string", "maxLength": 64 },
+        "amount": { "type": "number" },
+        "status": { "type": "string", "maxLength": 32 },
+        "createdAt": { "type": "string", "maxLength": 50 }
+      }
+    },
+    "Withdrawal": {
+      "title": "Withdrawal",
+      "description": "Withdrawal request record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "userId": { "type": "string", "maxLength": 64 },
+        "amount": { "type": "number" },
+        "upiId": { "type": "string", "maxLength": 100 },
+        "status": { "type": "string", "maxLength": 32 },
+        "createdAt": { "type": "string", "maxLength": 50 }
+      }
+    },
+    "Transaction": {
+      "title": "Transaction",
+      "description": "Wallet commission or payout transaction",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "userId": { "type": "string", "maxLength": 64 },
+        "type": { "type": "string", "maxLength": 40 },
+        "amount": { "type": "number" },
+        "createdAt": { "type": "string", "maxLength": 50 }
+      }
+    },
+    "SareeDispatch": {
+      "title": "SareeDispatch",
+      "description": "4-Saree package dispatch order record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "userId": { "type": "string", "maxLength": 64 },
+        "status": { "type": "string", "maxLength": 32 },
+        "trackingNumber": { "type": "string", "maxLength": 64 },
+        "createdAt": { "type": "string", "maxLength": 50 }
+      }
+    },
+    "TreeNodeDoc": {
+      "title": "TreeNodeDoc",
+      "description": "3x8 Matrix tree node record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "referralId": { "type": "string", "maxLength": 32 },
+        "sponsorId": { "type": "string", "maxLength": 64 },
+        "level": { "type": "number" }
+      }
+    }
+  },
+  "firestore": {
+    "/sarees/{sareeId}": {
+      "schema": "Saree",
+      "description": "Collection of sarees managed in the inventory"
+    },
+    "/users/{mobile}": {
+      "schema": "User",
+      "description": "Collection of members indexed by 10-digit mobile number as primary identifier"
+    },
+    "/members/{memberId}": {
+      "schema": "User",
+      "description": "Collection of MLM member records"
+    },
+    "/payouts/{payoutId}": {
+      "schema": "Payout",
+      "description": "Collection of commission payouts"
+    },
+    "/withdrawals/{withdrawalId}": {
+      "schema": "Withdrawal",
+      "description": "Collection of withdrawal requests"
+    },
+    "/transactions/{transactionId}": {
+      "schema": "Transaction",
+      "description": "Collection of wallet transactions"
+    },
+    "/sareeDispatches/{dispatchId}": {
+      "schema": "SareeDispatch",
+      "description": "Collection of 4-saree combo dispatch orders"
+    },
+    "/treeNodes/{nodeId}": {
+      "schema": "TreeNodeDoc",
+      "description": "Collection of 3x8 matrix tree nodes"
+    }
+  }
+}

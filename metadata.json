@@ -1,0 +1,6 @@
+{
+  "name": "Saree MLM App",
+  "description": "Premier 3x8 Matrix Saree MLM E-commerce & Direct Selling Platform with automated 8-level commission distribution, product dispatch tracking, wallet payouts, and visual genealogy tree.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #d4af37;
+    --gold-light: #f9e29c;
+    --gold-warm: #e6c253;
+    --wine-deep: #1e030a;
+    --wine-rich: #3b0714;
+    --wine-silk: #540a1d;
+    --card-black: #070405;
+  }
+
+  body,
+  #root {
+    min-height: 100vh;
+    background-color: #24040c;
+    background-image:
+      /* Subtle golden zari sheen at top & corners */
+      radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.10) 0%, transparent 40%),
+      radial-gradient(circle at 85% 20%, rgba(212, 175, 55, 0.08) 0%, transparent 45%),
+      radial-gradient(circle at 50% 85%, rgba(212, 175, 55, 0.07) 0%, transparent 50%),
+      /* Soft silk folds wave texture */
+      repeating-linear-gradient(
+        118deg,
+        rgba(255, 255, 255, 0.015) 0px,
+        rgba(212, 175, 55, 0.025) 2px,
+        transparent 4px,
+        rgba(0, 0, 0, 0.18) 64px,
+        rgba(92, 11, 31, 0.28) 128px,
+        rgba(22, 2, 8, 0.35) 192px
+      ),
+      repeating-linear-gradient(
+        -25deg,
+        rgba(84, 10, 29, 0.22) 0px,
+        rgba(30, 3, 10, 0.32) 90px,
+        rgba(110, 14, 38, 0.18) 180px
+      ),
+      /* Rich Wine Maroon Silk base gradient */
+      linear-gradient(145deg, #1c0208 0%, #3d0615 25%, #560a1e 50%, #330511 75%, #1a0207 100%);
+    background-attachment: fixed;
+    color: #fdfbf7;
+  }
+}
+
+/* 1. Page wrapper silk background override so no page hides the wine maroon silk */
+.silk-app-shell,
+main > div.min-h-screen.bg-slate-950 {
+  background: transparent !important;
+}
+
+/* Subtle Golden Zari Border around viewport edges */
+.zari-edge-frame {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  border: 3px solid transparent;
+  box-shadow:
+    inset 0 0 0 1px rgba(212, 175, 55, 0.45),
+    inset 0 0 0 5px rgba(20, 2, 7, 0.85),
+    inset 0 0 0 6px rgba(212, 175, 55, 0.28),
+    inset 0 0 28px rgba(212, 175, 55, 0.14);
+}
+
+.zari-edge-frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    #8a6615 0px,
+    #d4af37 8px,
+    #fff1b8 14px,
+    #d4af37 20px,
+    #593f08 28px
+  );
+  opacity: 0.85;
+}
+
+.zari-edge-frame::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    #8a6615 0px,
+    #d4af37 8px,
+    #fff1b8 14px,
+    #d4af37 20px,
+    #593f08 28px
+  );
+  opacity: 0.85;
+}
+
+/* 2. All Cards: Deep Black with Warm Gold 1px Border + Inner Glow */
+.gold-luxury-card,
+div.bg-slate-900,
+div.bg-slate-900\/80,
+div.bg-slate-900\/90,
+div.bg-slate-950\/80,
+div.bg-slate-950\/90,
+div[class*="from-slate-900"],
+div[class*="from-amber-950"],
+div[class*="from-rose-950"] {
+  background: linear-gradient(165deg, rgba(10, 6, 7, 0.96) 0%, rgba(4, 2, 3, 0.98) 100%) !important;
+  border: 1px solid rgba(212, 175, 55, 0.55) !important;
+  box-shadow:
+    inset 0 0 24px rgba(212, 175, 55, 0.14),
+    inset 0 1px 0 rgba(255, 232, 158, 0.24),
+    0 12px 32px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Nested sub-cards & inputs inside cards */
+div.bg-slate-950 {
+  background-color: #060304;
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+input.bg-slate-900,
+input.bg-slate-950,
+select.bg-slate-900,
+select.bg-slate-950,
+textarea.bg-slate-900,
+textarea.bg-slate-950 {
+  background-color: #060304 !important;
+  border-color: rgba(212, 175, 55, 0.45) !important;
+  box-shadow: inset 0 0 12px rgba(212, 175, 55, 0.08) !important;
+}
+
+input.bg-slate-900:focus,
+input.bg-slate-950:focus,
+select.bg-slate-900:focus,
+select.bg-slate-950:focus,
+textarea.bg-slate-900:focus,
+textarea.bg-slate-950:focus {
+  border-color: #f5d061 !important;
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.28), inset 0 0 10px rgba(212, 175, 55, 0.12) !important;
+}
+
+/* 3. Headlines: White + Gold Gradient, Professional */
+h1,
+h2,
+h3,
+.gold-gradient-headline {
+  background: linear-gradient(135deg, #ffffff 0%, #fffdf6 35%, #f7d97e 72%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 4. Buttons: Black with Gold Border & Gold Text, Primary CTA with Gold Gradient Glow */
+.btn-gold-black,
+button.bg-slate-900,
+button.bg-slate-950,
+button.bg-slate-800,
+a.bg-slate-800 {
+  background: linear-gradient(180deg, #120b0d 0%, #060304 100%) !important;
+  border: 1px solid rgba(212, 175, 55, 0.65) !important;
+  color: #f7d97e !important;
+  box-shadow:
+    inset 0 0 12px rgba(212, 175, 55, 0.14),
+    0 4px 14px rgba(0, 0, 0, 0.6) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-gold-black:hover,
+button.bg-slate-900:hover,
+button.bg-slate-950:hover,
+button.bg-slate-800:hover,
+a.bg-slate-800:hover {
+  border-color: #fbe285 !important;
+  color: #fff6d1 !important;
+  box-shadow:
+    inset 0 0 18px rgba(212, 175, 55, 0.25),
+    0 0 18px rgba(212, 175, 55, 0.32) !important;
+}
+
+/* Primary CTA Buttons with Gold Gradient Glow */
+.btn-gold-cta,
+button.from-rose-600,
+button.from-amber-500,
+button.from-amber-600,
+button.bg-rose-600,
+button.bg-amber-500,
+button.bg-amber-600 {
+  background: linear-gradient(135deg, #160c03 0%, #2c1a04 45%, #120902 100%) !important;
+  border: 1px solid #f5d061 !important;
+  color: #fce592 !important;
+  box-shadow:
+    0 0 24px rgba(212, 175, 55, 0.42),
+    inset 0 0 16px rgba(212, 175, 55, 0.28),
+    inset 0 1px 0 rgba(255, 244, 194, 0.45) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-gold-cta:hover,
+button.from-rose-600:hover,
+button.from-amber-500:hover,
+button.from-amber-600:hover,
+button.bg-rose-600:hover,
+button.bg-amber-500:hover,
+button.bg-amber-600:hover {
+  background: linear-gradient(135deg, #241405 0%, #3f2607 50%, #1c0f03 100%) !important;
+  border-color: #fff0b3 !important;
+  color: #ffffff !important;
+  box-shadow:
+    0 0 32px rgba(212, 175, 55, 0.65),
+    inset 0 0 22px rgba(212, 175, 55, 0.38) !important;
+}
+

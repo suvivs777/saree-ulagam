@@ -1,0 +1,89 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function isValidSaree(data) {
+      return data.name is string && data.name.size() > 0 && data.name.size() <= 150 &&
+             data.price is number && data.price >= 0 &&
+             data.imageUrl is string && data.imageUrl.size() <= 2000000 &&
+             data.description is string && data.description.size() <= 2000 &&
+             data.stock is number && data.stock >= 0 &&
+             data.createdAt is string && data.createdAt.size() <= 50 &&
+             data.updatedAt is string && data.updatedAt.size() <= 50;
+    }
+
+    function isValidUser(data) {
+      return data.mobile is string && data.mobile.size() >= 10 && data.mobile.size() <= 15 &&
+             data.fullName is string && data.fullName.size() > 0 && data.fullName.size() <= 100 &&
+             data.deliveryAddress is string && data.deliveryAddress.size() > 0 &&
+             data.referralId is string;
+    }
+
+    match /sarees/{sareeId} {
+      allow read: if true;
+      allow create: if isValidId(sareeId) && isValidSaree(incoming());
+      allow update: if isValidId(sareeId) && isValidSaree(incoming());
+      allow delete: if isValidId(sareeId);
+    }
+
+    match /users/{mobile} {
+      allow read: if true;
+      allow create: if isValidId(mobile) && isValidUser(incoming());
+      allow update: if isValidId(mobile) && isValidUser(incoming());
+      allow delete: if isValidId(mobile);
+    }
+
+    match /members/{memberId} {
+      allow read: if true;
+      allow create: if isValidId(memberId) && incoming().keys().size() <= 30;
+      allow update: if isValidId(memberId) && incoming().keys().size() <= 30;
+      allow delete: if isValidId(memberId);
+    }
+
+    match /payouts/{payoutId} {
+      allow read: if true;
+      allow create: if isValidId(payoutId) && incoming().keys().size() <= 20;
+      allow update: if isValidId(payoutId) && incoming().keys().size() <= 20;
+      allow delete: if isValidId(payoutId);
+    }
+
+    match /withdrawals/{withdrawalId} {
+      allow read: if true;
+      allow create: if isValidId(withdrawalId) && incoming().keys().size() <= 20;
+      allow update: if isValidId(withdrawalId) && incoming().keys().size() <= 20;
+      allow delete: if isValidId(withdrawalId);
+    }
+
+    match /transactions/{transactionId} {
+      allow read: if true;
+      allow create: if isValidId(transactionId) && incoming().keys().size() <= 20;
+      allow update: if isValidId(transactionId) && incoming().keys().size() <= 20;
+      allow delete: if isValidId(transactionId);
+    }
+
+    match /sareeDispatches/{dispatchId} {
+      allow read: if true;
+      allow create: if isValidId(dispatchId) && incoming().keys().size() <= 20;
+      allow update: if isValidId(dispatchId) && incoming().keys().size() <= 20;
+      allow delete: if isValidId(dispatchId);
+    }
+
+    match /treeNodes/{nodeId} {
+      allow read: if true;
+      allow create: if isValidId(nodeId) && incoming().keys().size() <= 20;
+      allow update: if isValidId(nodeId) && incoming().keys().size() <= 20;
+      allow delete: if isValidId(nodeId);
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

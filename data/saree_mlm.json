@@ -1,0 +1,1328 @@
+{
+  "users": [
+    {
+      "id": "ADMIN-001",
+      "referralId": "ADMIN-001",
+      "sponsorId": null,
+      "sponsorReferralId": null,
+      "fullName": "Root System Administrator",
+      "mobile": "7339267709",
+      "email": "admin@sareemlm.com",
+      "password": "Raja@123",
+      "deliveryAddress": "Admin HQ, Saree MLM Towers, Surat, Gujarat - 395002",
+      "upiId": "company@upi",
+      "role": "admin",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 0,
+      "paidAt": "2026-09-03T08:46:42.074Z",
+      "walletBalance": 500,
+      "totalEarnings": 500,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 5,
+      "createdAt": "2026-09-03T08:46:42.074Z"
+    },
+    {
+      "id": "usr_root",
+      "referralId": "SRM-1000",
+      "sponsorId": null,
+      "sponsorReferralId": null,
+      "fullName": "Ramesh Sharma (Test Customer)",
+      "mobile": "9876543210",
+      "email": "customer@sareemlm.com",
+      "password": "test123",
+      "deliveryAddress": "Plot 42, Vasant Vihar, Jaipur, Rajasthan - 302018",
+      "upiId": "ramesh.sharma@okaxis",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-13T08:46:42.074Z",
+      "walletBalance": 610,
+      "totalEarnings": 1110,
+      "totalWithdrawn": 500,
+      "pendingWithdrawal": 0,
+      "directCount": 3,
+      "createdAt": "2026-09-13T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l1_1",
+      "referralId": "SRM-1004",
+      "sponsorId": "usr_root",
+      "sponsorReferralId": "SRM-1000",
+      "fullName": "Priya Patel",
+      "mobile": "9876543211",
+      "email": "priya@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "B-204, Shivalik Residency, Ahmedabad, Gujarat - 380015",
+      "upiId": "priyapatel@oksbi",
+      "aadharNumber": "789012345678",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-18T08:46:42.074Z",
+      "walletBalance": 260,
+      "totalEarnings": 260,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 2,
+      "createdAt": "2026-09-18T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l1_2",
+      "referralId": "SRM-1002",
+      "sponsorId": "usr_root",
+      "sponsorReferralId": "SRM-1000",
+      "fullName": "Anita Verma",
+      "mobile": "9876543212",
+      "email": "anita@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Flat 12, Gomti Nagar, Lucknow, Uttar Pradesh - 226010",
+      "upiId": "anitaverma@paytm",
+      "aadharNumber": "345678901234",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-19T08:46:42.074Z",
+      "walletBalance": 320,
+      "totalEarnings": 320,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 3,
+      "createdAt": "2026-09-19T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l1_3",
+      "referralId": "SRM-1003",
+      "sponsorId": "usr_root",
+      "sponsorReferralId": "SRM-1000",
+      "fullName": "Sunita Rao",
+      "mobile": "9876543213",
+      "email": "sunita@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Villa 7, Jubilee Hills, Hyderabad, Telangana - 500033",
+      "upiId": "sunitarao@ybl",
+      "aadharNumber": "678901234567",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-21T08:46:42.074Z",
+      "walletBalance": 100,
+      "totalEarnings": 100,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 1,
+      "createdAt": "2026-09-21T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l2_1",
+      "referralId": "SRM-2001",
+      "sponsorId": "usr_l1_1",
+      "sponsorReferralId": "SRM-1004",
+      "fullName": "Rajesh Kumar",
+      "mobile": "9876543214",
+      "email": "rajesh@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "23 Mall Road, Kanpur, UP - 208001",
+      "upiId": "rajeshk@upi",
+      "aadharNumber": "234567890123",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-23T08:46:42.074Z",
+      "walletBalance": 120,
+      "totalEarnings": 120,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 1,
+      "createdAt": "2026-09-23T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l2_2",
+      "referralId": "SRM-2002",
+      "sponsorId": "usr_l1_1",
+      "sponsorReferralId": "SRM-1004",
+      "fullName": "Meena Kumari",
+      "mobile": "9876543215",
+      "email": "meena@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "44 Park Street, Kolkata, West Bengal - 700016",
+      "upiId": "meenak@apl",
+      "aadharNumber": "567890123456",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-24T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-24T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l2_3",
+      "referralId": "SRM-2003",
+      "sponsorId": "usr_l1_2",
+      "sponsorReferralId": "SRM-1002",
+      "fullName": "Pooja Sharma",
+      "mobile": "9876543216",
+      "email": "pooja@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Sector 18, Noida, Uttar Pradesh - 201301",
+      "upiId": "poojasharma@okhdfc",
+      "aadharNumber": "123456789012",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-25T08:46:42.074Z",
+      "walletBalance": 100,
+      "totalEarnings": 100,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 1,
+      "createdAt": "2026-09-25T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l2_4",
+      "referralId": "SRM-2004",
+      "sponsorId": "usr_l1_2",
+      "sponsorReferralId": "SRM-1002",
+      "fullName": "Vikram Singh",
+      "mobile": "9876543217",
+      "email": "vikram@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Civil Lines, Ludhiana, Punjab - 141001",
+      "upiId": "vikrams@sbi",
+      "aadharNumber": "890123456789",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-26T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-26T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l2_5",
+      "referralId": "SRM-2005",
+      "sponsorId": "usr_l1_2",
+      "sponsorReferralId": "SRM-1002",
+      "fullName": "Deepak Joshi",
+      "mobile": "9876543218",
+      "email": "deepak@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "MG Road, Indore, Madhya Pradesh - 452001",
+      "upiId": "deepakj@icici",
+      "aadharNumber": "901234567890",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-27T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-27T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l2_6",
+      "referralId": "SRM-2006",
+      "sponsorId": "usr_l1_3",
+      "sponsorReferralId": "SRM-1003",
+      "fullName": "Kavita Reddy",
+      "mobile": "9876543219",
+      "email": "kavita@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Indiranagar, Bengaluru, Karnataka - 560038",
+      "upiId": "kavitareddy@axisbank",
+      "aadharNumber": "345678901299",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-28T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-28T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l3_1",
+      "referralId": "SRM-3001",
+      "sponsorId": "usr_l2_1",
+      "sponsorReferralId": "SRM-2001",
+      "fullName": "Suresh Raina",
+      "mobile": "9876543220",
+      "email": "suresh@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Aliganj, Lucknow, UP - 226024",
+      "upiId": "sureshr@okaxis",
+      "aadharNumber": "567890123411",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-29T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 1,
+      "createdAt": "2026-09-29T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l3_2",
+      "referralId": "SRM-3002",
+      "sponsorId": "usr_l2_3",
+      "sponsorReferralId": "SRM-2003",
+      "fullName": "Neelam Tiwari",
+      "mobile": "9876543221",
+      "email": "neelam@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Banjara Hills, Hyderabad, Telangana - 500034",
+      "upiId": "neelamt@paytm",
+      "aadharNumber": "678901234522",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-30T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-30T08:46:42.074Z"
+    },
+    {
+      "id": "usr_l4_1",
+      "referralId": "SRM-4001",
+      "sponsorId": "usr_l3_1",
+      "sponsorReferralId": "SRM-3001",
+      "fullName": "Gaurav Khandelwal",
+      "mobile": "9876543222",
+      "email": "gaurav@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "Malviya Nagar, Jaipur, Rajasthan - 302017",
+      "upiId": "gauravk@oksbi",
+      "aadharNumber": "789012345633",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-10-01T08:46:42.074Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-10-01T08:46:42.074Z"
+    },
+    {
+      "id": "usr_adm_dir1",
+      "referralId": "SRM-5001",
+      "sponsorId": "ADMIN-001",
+      "sponsorReferralId": "ADMIN-001",
+      "referredBy": "ADMIN-001",
+      "level": 1,
+      "fullName": "Kavita Sundaram",
+      "mobile": "9811100001",
+      "email": "kavita.s@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "12, Anna Nagar West, Chennai, Tamil Nadu - 600040",
+      "upiId": "kavita@upi",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-28T09:02:29.380Z",
+      "walletBalance": 100,
+      "totalEarnings": 100,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 1,
+      "createdAt": "2026-09-28T09:02:29.381Z",
+      "badge": "1st Member",
+      "tag": "Direct Member of Admin"
+    },
+    {
+      "id": "usr_adm_dir2",
+      "referralId": "SRM-5002",
+      "sponsorId": "ADMIN-001",
+      "sponsorReferralId": "ADMIN-001",
+      "referredBy": "ADMIN-001",
+      "level": 1,
+      "fullName": "Rajeshwari Nair",
+      "mobile": "9811100002",
+      "email": "rajeshwari.n@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "45, MG Road, Ernakulam, Kochi, Kerala - 682016",
+      "upiId": "rajeshwari@upi",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-29T09:02:29.381Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-29T09:02:29.381Z",
+      "badge": "1st Member",
+      "tag": "Direct Member of Admin"
+    },
+    {
+      "id": "usr_adm_dir3",
+      "referralId": "SRM-5003",
+      "sponsorId": "ADMIN-001",
+      "sponsorReferralId": "ADMIN-001",
+      "referredBy": "ADMIN-001",
+      "level": 1,
+      "fullName": "Deepa Venkatesh",
+      "mobile": "9811100003",
+      "email": "deepa.v@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "88, Jayanagar 4th Block, Bengaluru, Karnataka - 560011",
+      "upiId": "deepa@upi",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-09-30T09:02:29.381Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-09-30T09:02:29.381Z",
+      "badge": "1st Member",
+      "tag": "Direct Member of Admin"
+    },
+    {
+      "id": "usr_adm_dir4",
+      "referralId": "SRM-5004",
+      "sponsorId": "ADMIN-001",
+      "sponsorReferralId": "ADMIN-001",
+      "referredBy": "ADMIN-001",
+      "level": 1,
+      "fullName": "Lakshmi Narayanan",
+      "mobile": "9811100004",
+      "email": "lakshmi.n@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "34, Race Course Road, Coimbatore, Tamil Nadu - 641018",
+      "upiId": "lakshmi@upi",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-10-01T09:02:29.381Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-10-01T09:02:29.381Z",
+      "badge": "1st Member",
+      "tag": "Direct Member of Admin"
+    },
+    {
+      "id": "usr_adm_dir5",
+      "referralId": "SRM-5005",
+      "sponsorId": "ADMIN-001",
+      "sponsorReferralId": "ADMIN-001",
+      "referredBy": "ADMIN-001",
+      "level": 1,
+      "fullName": "Ananya Sengupta",
+      "mobile": "9811100005",
+      "email": "ananya.s@gmail.com",
+      "password": "user123",
+      "deliveryAddress": "71, Park Street, Kolkata, West Bengal - 700016",
+      "upiId": "ananya@upi",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-10-02T09:02:29.381Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-10-02T09:02:29.381Z",
+      "badge": "1st Member",
+      "tag": "Direct Member of Admin"
+    },
+    {
+      "id": "usr_9833300007",
+      "referralId": "SRM-8294",
+      "sponsorId": "usr_adm_dir1",
+      "sponsorReferralId": "SRM-5001",
+      "referredBy": "SRM-5001",
+      "level": 2,
+      "fullName": "Sita Devi",
+      "mobile": "9833300007",
+      "email": "9833300007@sareemlm.local",
+      "password": "user123",
+      "deliveryAddress": "15, Temple Street, Madurai - 625001",
+      "upiId": "sita@upi",
+      "aadharNumber": "",
+      "role": "member",
+      "status": "active",
+      "isActivated": true,
+      "joinAmount": 2000,
+      "paidAt": "2026-10-03T09:10:18.477Z",
+      "walletBalance": 0,
+      "totalEarnings": 0,
+      "totalWithdrawn": 0,
+      "pendingWithdrawal": 0,
+      "directCount": 0,
+      "createdAt": "2026-10-03T09:10:18.477Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1791018618477",
+      "userId": "usr_9833300007",
+      "userReferralId": "SRM-8294",
+      "userName": "Sita Devi",
+      "userMobile": "9833300007",
+      "deliveryAddress": "15, Temple Street, Madurai - 625001",
+      "productTitle": "5 Premium Silk & Banarasi Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Express Delivery Services",
+      "trackingNumber": "EXP-30645391",
+      "estimatedDeliveryDate": "2026-10-06T09:10:18.477Z",
+      "createdAt": "2026-10-03T09:10:18.477Z",
+      "updatedAt": "2026-10-03T09:10:18.477Z"
+    },
+    {
+      "id": "ord_usr_root",
+      "userId": "usr_root",
+      "userReferralId": "SRM-1000",
+      "userName": "Ramesh Sharma (Test Customer)",
+      "userMobile": "9876543210",
+      "deliveryAddress": "Plot 42, Vasant Vihar, Jaipur, Rajasthan - 302018",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Delivered",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-93228732",
+      "estimatedDeliveryDate": "2026-09-16T08:46:42.074Z",
+      "createdAt": "2026-09-13T08:46:42.074Z",
+      "updatedAt": "2026-09-13T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l1_1",
+      "userId": "usr_l1_1",
+      "userReferralId": "SRM-1004",
+      "userName": "Priya Patel",
+      "userMobile": "9876543211",
+      "deliveryAddress": "B-204, Shivalik Residency, Ahmedabad, Gujarat - 380015",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Delivered",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-30345344",
+      "estimatedDeliveryDate": "2026-09-21T08:46:42.074Z",
+      "createdAt": "2026-09-18T08:46:42.074Z",
+      "updatedAt": "2026-09-18T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l1_2",
+      "userId": "usr_l1_2",
+      "userReferralId": "SRM-1002",
+      "userName": "Anita Verma",
+      "userMobile": "9876543212",
+      "deliveryAddress": "Flat 12, Gomti Nagar, Lucknow, Uttar Pradesh - 226010",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Delivered",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-25435576",
+      "estimatedDeliveryDate": "2026-09-22T08:46:42.074Z",
+      "createdAt": "2026-09-19T08:46:42.074Z",
+      "updatedAt": "2026-09-19T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l1_3",
+      "userId": "usr_l1_3",
+      "userReferralId": "SRM-1003",
+      "userName": "Sunita Rao",
+      "userMobile": "9876543213",
+      "deliveryAddress": "Villa 7, Jubilee Hills, Hyderabad, Telangana - 500033",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Delivered",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-45237922",
+      "estimatedDeliveryDate": "2026-09-24T08:46:42.074Z",
+      "createdAt": "2026-09-21T08:46:42.074Z",
+      "updatedAt": "2026-09-21T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l2_1",
+      "userId": "usr_l2_1",
+      "userReferralId": "SRM-2001",
+      "userName": "Rajesh Kumar",
+      "userMobile": "9876543214",
+      "deliveryAddress": "23 Mall Road, Kanpur, UP - 208001",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Shipped",
+      "courierPartner": "Delhivery Logistics",
+      "trackingNumber": "BLU-82191618",
+      "estimatedDeliveryDate": "2026-09-26T08:46:42.074Z",
+      "createdAt": "2026-09-23T08:46:42.074Z",
+      "updatedAt": "2026-09-23T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l2_2",
+      "userId": "usr_l2_2",
+      "userReferralId": "SRM-2002",
+      "userName": "Meena Kumari",
+      "userMobile": "9876543215",
+      "deliveryAddress": "44 Park Street, Kolkata, West Bengal - 700016",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Shipped",
+      "courierPartner": "Delhivery Logistics",
+      "trackingNumber": "BLU-35616114",
+      "estimatedDeliveryDate": "2026-09-27T08:46:42.074Z",
+      "createdAt": "2026-09-24T08:46:42.074Z",
+      "updatedAt": "2026-09-24T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l2_3",
+      "userId": "usr_l2_3",
+      "userReferralId": "SRM-2003",
+      "userName": "Pooja Sharma",
+      "userMobile": "9876543216",
+      "deliveryAddress": "Sector 18, Noida, Uttar Pradesh - 201301",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Shipped",
+      "courierPartner": "Delhivery Logistics",
+      "trackingNumber": "BLU-71651605",
+      "estimatedDeliveryDate": "2026-09-28T08:46:42.074Z",
+      "createdAt": "2026-09-25T08:46:42.074Z",
+      "updatedAt": "2026-09-25T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l2_4",
+      "userId": "usr_l2_4",
+      "userReferralId": "SRM-2004",
+      "userName": "Vikram Singh",
+      "userMobile": "9876543217",
+      "deliveryAddress": "Civil Lines, Ludhiana, Punjab - 141001",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-35988831",
+      "estimatedDeliveryDate": "2026-09-29T08:46:42.074Z",
+      "createdAt": "2026-09-26T08:46:42.074Z",
+      "updatedAt": "2026-09-26T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l2_5",
+      "userId": "usr_l2_5",
+      "userReferralId": "SRM-2005",
+      "userName": "Deepak Joshi",
+      "userMobile": "9876543218",
+      "deliveryAddress": "MG Road, Indore, Madhya Pradesh - 452001",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-84606590",
+      "estimatedDeliveryDate": "2026-09-30T08:46:42.074Z",
+      "createdAt": "2026-09-27T08:46:42.074Z",
+      "updatedAt": "2026-09-27T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l2_6",
+      "userId": "usr_l2_6",
+      "userReferralId": "SRM-2006",
+      "userName": "Kavita Reddy",
+      "userMobile": "9876543219",
+      "deliveryAddress": "Indiranagar, Bengaluru, Karnataka - 560038",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-20310009",
+      "estimatedDeliveryDate": "2026-10-01T08:46:42.074Z",
+      "createdAt": "2026-09-28T08:46:42.074Z",
+      "updatedAt": "2026-09-28T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l3_1",
+      "userId": "usr_l3_1",
+      "userReferralId": "SRM-3001",
+      "userName": "Suresh Raina",
+      "userMobile": "9876543220",
+      "deliveryAddress": "Aliganj, Lucknow, UP - 226024",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-24198229",
+      "estimatedDeliveryDate": "2026-10-02T08:46:42.074Z",
+      "createdAt": "2026-09-29T08:46:42.074Z",
+      "updatedAt": "2026-09-29T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l3_2",
+      "userId": "usr_l3_2",
+      "userReferralId": "SRM-3002",
+      "userName": "Neelam Tiwari",
+      "userMobile": "9876543221",
+      "deliveryAddress": "Banjara Hills, Hyderabad, Telangana - 500034",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-14352337",
+      "estimatedDeliveryDate": "2026-10-03T08:46:42.074Z",
+      "createdAt": "2026-09-30T08:46:42.074Z",
+      "updatedAt": "2026-09-30T08:46:42.074Z"
+    },
+    {
+      "id": "ord_usr_l4_1",
+      "userId": "usr_l4_1",
+      "userReferralId": "SRM-4001",
+      "userName": "Gaurav Khandelwal",
+      "userMobile": "9876543222",
+      "deliveryAddress": "Malviya Nagar, Jaipur, Rajasthan - 302017",
+      "productTitle": "5 Premium Sarees Combo Pack (Delivery within 3 days)",
+      "sareeItems": [
+        {
+          "name": "Kanjeevaram Royal Bridal Silk Saree",
+          "fabric": "Pure Kanchipuram Soft Silk with Zari Border",
+          "color": "Crimson Red & Gold",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Banarasi Meenakari Brocade Saree",
+          "fabric": "Handwoven Banarasi Silk",
+          "color": "Emerald Peacock Green",
+          "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Chanderi Zari Floral Designer Saree",
+          "fabric": "Lightweight Chanderi Silk Cotton",
+          "color": "Rose Quartz Pink",
+          "imageUrl": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Georgette Moti Sequence Party Saree",
+          "fabric": "Heavy Faux Georgette with Embroidered Border",
+          "color": "Midnight Royal Blue",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469830-ec38c4149021?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "name": "Traditional Royal Paithani Saree",
+          "fabric": "Pure Art Silk with Peacock Motif Pallu",
+          "color": "Golden Mustard Yellow",
+          "imageUrl": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "status": "Pending",
+      "courierPartner": "Blue Dart Express",
+      "trackingNumber": "BLU-81925268",
+      "estimatedDeliveryDate": "2026-10-04T08:46:42.074Z",
+      "createdAt": "2026-10-01T08:46:42.074Z",
+      "updatedAt": "2026-10-01T08:46:42.074Z"
+    }
+  ],
+  "walletTransactions": [
+    {
+      "id": "tx_1791018618477_lvl2_mh0g",
+      "userId": "ADMIN-001",
+      "type": "COMMISSION",
+      "amount": 30,
+      "level": 2,
+      "fromUserId": "usr_9833300007",
+      "fromUserName": "Sita Devi",
+      "fromReferralId": "SRM-8294",
+      "description": "Level 2 Income from Sita Devi (SRM-8294) - Rs. 30",
+      "balanceAfter": 630,
+      "createdAt": "2026-10-03T09:10:18.477Z"
+    },
+    {
+      "id": "tx_1791018618477_lvl1_28yy",
+      "userId": "usr_adm_dir1",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_9833300007",
+      "fromUserName": "Sita Devi",
+      "fromReferralId": "SRM-8294",
+      "description": "Level 1 Income from Sita Devi (SRM-8294) - Rs. 100",
+      "balanceAfter": 100,
+      "createdAt": "2026-10-03T09:10:18.477Z"
+    },
+    {
+      "id": "tx_1791018357928_lvl1_7lym",
+      "userId": "ADMIN-001",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_9822200006",
+      "fromUserName": "Meena Kumari",
+      "fromReferralId": "SRM-3188",
+      "description": "Level 1 Income from Meena Kumari (SRM-3188) - Rs. 100",
+      "balanceAfter": 600,
+      "createdAt": "2026-10-03T09:05:57.928Z"
+    },
+    {
+      "id": "tx_seed_1",
+      "userId": "usr_root",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_l1_1",
+      "fromUserName": "Priya Patel",
+      "fromReferralId": "SRM-1004",
+      "description": "Level 1 Income from Priya Patel (SRM-1004) - Rs. 100",
+      "balanceAfter": 100,
+      "createdAt": "2026-09-18T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_2",
+      "userId": "usr_root",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_l1_2",
+      "fromUserName": "Anita Verma",
+      "fromReferralId": "SRM-1002",
+      "description": "Level 1 Income from Anita Verma (SRM-1002) - Rs. 100",
+      "balanceAfter": 200,
+      "createdAt": "2026-09-19T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_3",
+      "userId": "usr_root",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_l1_3",
+      "fromUserName": "Sunita Rao",
+      "fromReferralId": "SRM-1003",
+      "description": "Level 1 Income from Sunita Rao (SRM-1003) - Rs. 100",
+      "balanceAfter": 300,
+      "createdAt": "2026-09-21T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_4",
+      "userId": "usr_root",
+      "type": "COMMISSION",
+      "amount": 30,
+      "level": 2,
+      "fromUserId": "usr_l2_1",
+      "fromUserName": "Rajesh Kumar",
+      "fromReferralId": "SRM-2001",
+      "description": "Level 2 Income from Rajesh Kumar (SRM-2001) - Rs. 30",
+      "balanceAfter": 330,
+      "createdAt": "2026-09-23T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_5",
+      "userId": "usr_root",
+      "type": "COMMISSION",
+      "amount": 30,
+      "level": 2,
+      "fromUserId": "usr_l2_2",
+      "fromUserName": "Meena Kumari",
+      "fromReferralId": "SRM-2002",
+      "description": "Level 2 Income from Meena Kumari (SRM-2002) - Rs. 30",
+      "balanceAfter": 360,
+      "createdAt": "2026-09-24T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_6",
+      "userId": "usr_root",
+      "type": "WITHDRAWAL_APPROVED",
+      "amount": 500,
+      "description": "Withdrawal Approved & Paid to UPI: ramesh.sharma@okaxis - Rs. 500",
+      "balanceAfter": 560,
+      "createdAt": "2026-09-28T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_7",
+      "userId": "usr_l1_1",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_l2_1",
+      "fromUserName": "Rajesh Kumar",
+      "fromReferralId": "SRM-2001",
+      "description": "Level 1 Income from Rajesh Kumar (SRM-2001) - Rs. 100",
+      "balanceAfter": 100,
+      "createdAt": "2026-09-23T08:46:42.074Z"
+    },
+    {
+      "id": "tx_seed_8",
+      "userId": "usr_l1_1",
+      "type": "COMMISSION",
+      "amount": 100,
+      "level": 1,
+      "fromUserId": "usr_l2_2",
+      "fromUserName": "Meena Kumari",
+      "fromReferralId": "SRM-2002",
+      "description": "Level 1 Income from Meena Kumari (SRM-2002) - Rs. 100",
+      "balanceAfter": 200,
+      "createdAt": "2026-09-24T08:46:42.074Z"
+    }
+  ],
+  "withdrawRequests": [
+    {
+      "id": "wdr_seed_1",
+      "userId": "usr_root",
+      "userName": "Ramesh Sharma (Root Member)",
+      "userEmail": "ramesh@sareemlm.com",
+      "userMobile": "9876543210",
+      "userReferralId": "SRM-1000",
+      "upiId": "ramesh.sharma@okaxis",
+      "amount": 500,
+      "status": "approved",
+      "adminRemarks": "Approved and transferred via IMPS. UTR: 32918847192",
+      "createdAt": "2026-09-27T08:46:42.074Z",
+      "processedAt": "2026-09-28T08:46:42.074Z"
+    },
+    {
+      "id": "wdr_seed_2",
+      "userId": "usr_l1_2",
+      "userName": "Anita Verma",
+      "userEmail": "anita@gmail.com",
+      "userMobile": "9876543212",
+      "userReferralId": "SRM-1002",
+      "upiId": "anitaverma@paytm",
+      "amount": 500,
+      "status": "pending",
+      "createdAt": "2026-10-02T08:46:42.074Z"
+    }
+  ]
+}
